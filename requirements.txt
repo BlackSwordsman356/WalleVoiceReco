@@ -1,0 +1,5 @@
+#Librerias
+speech_recognition
+pyttsx3
+serial
+time
