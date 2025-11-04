@@ -7,7 +7,7 @@ engine = pyttsx3.init()
 
 # Reemplazar 'COM6' con el puerto que corresponda
 try:
-    arduino = serial.Serial('COM6', 9600, timeout=1)
+    arduino = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
     time.sleep(2)
     print("Conexión con Arduino establecida.")
 except serial.SerialException:
